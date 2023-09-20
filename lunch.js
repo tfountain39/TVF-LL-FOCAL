@@ -20,7 +20,7 @@ const whatToDoForLunch = function(hungry, availableTime) {
     ? "Make a snack or heat up some leftovers."
     : availableTime <= 30
     ? "Make a full meal. You deserve it."
-    : "You probably don't have that much time to spare. You should reconsider how much time you have."
+    : "You probably don't have that much time to spare."
   console.log(message);
 }
 
